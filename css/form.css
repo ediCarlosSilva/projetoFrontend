@@ -1,0 +1,38 @@
+.panel-form {
+    margin-top: 32px;
+}
+
+.panel-form .title {
+    text-align: center;
+    color: #f17d50;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.button-place {
+    text-align: center;
+    padding: 8px 0;
+}
+
+
+/* .panel-form input {
+    display: block;
+    width: 100%;
+}
+
+
+
+.panel-form button {
+    color: white;
+    padding: 25px 50px;
+    margin: 16px 0;
+    text-transform: uppercase;
+    background: #48a3a6;
+    border-radius: 10px;
+    border: none;
+}
+
+.panel-form .botao-inscricao {
+    text-align: center;
+} */

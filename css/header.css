@@ -1,0 +1,119 @@
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    padding-top: 2em;
+    background-size: cover;
+}
+
+.header .main-menu {
+    text-align: center;
+}
+
+.header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 0.125em 2em 0;
+}
+
+.header .main-menu .menu-item a {
+    color: white;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover {
+    background-color: #48a3a6;
+}
+
+.header .jumbotron {
+    text-align: center;
+    padding: 0 0 44px 0;
+    text-transform: uppercase;
+}
+
+.header .panel-main {
+    color: white;
+    text-shadow: 4px 4px 10px #000;
+}
+
+.header .jumbotron .titulo {
+    font-size: 3em;
+}
+
+.header .jumbotron .subtitulo {
+    font-size: 2.6em;
+    color: #64ff64;
+    margin-top: 8px;
+}
+
+.header .jumbotron .button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    /* border: 2px solid; */
+    padding: 25px 50px;
+    margin: 5px;
+    background-color: #48a3a6;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.header .jumbotron .panel-subscribe {
+    margin-top: 28px;
+}
+
+@media (min-width: 650px) {
+    .header .jumbotron {
+        font-size: 28px;
+    }
+}
+
+
+/* 
+.header section {
+    text-align: center;
+}
+
+.header section h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.header h2 {
+    color: #64FF64;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    margin: .5em 0 1em 0;
+}
+
+.header section a {
+    background-color: #48A2A6;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    display: inline-block;
+    border-radius: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    section {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1000px) {
+    section {
+        font-size: 2.5em;
+    }
+} */
